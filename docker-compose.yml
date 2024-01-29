@@ -9,12 +9,12 @@ services:
     environment:
       - NODE_ENV=development
       - PORT=3000
-      - HOST=0.0.0.0
+      - HOST=http://localhost
       - NEXT_PUBLIC_INTERNAL_URL=http://localhost:1337
     ports:
       - "3000:3000"
     volumes:
-      - ./next/pages:/app/pages
+      - ./next/app:/app/app
       - ./next/public:/app/public
       - ./next/styles:/app/styles
       - ./next/components:/app/components
