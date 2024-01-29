@@ -1,3 +1,11 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    //  strings quotes backticks only
+    "quotes": ["error", "backtick"],
+    // no semicolons
+    "semi": ["error", "never"],
+    // tab size 4
+    "indent": ["error", 4]
+  }
 }
