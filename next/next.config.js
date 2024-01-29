@@ -16,7 +16,7 @@ const nextConfig = {
         styledComponents: true,
     },
     images: {
-        domains: ['localhost', 'svirina.education'],
+        domains: ['localhost', 'host.education'],
     },
 }
 
